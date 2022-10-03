@@ -12,16 +12,18 @@
         <h1>Tabuada</h1>
     </header>
     <section>
-        <div>
-            <p>
-                <input type="number" name="numero" id="txtn" placeholder="Digite um número:">
-            </p>  
-            <p>
-                <input type="number" name="quant" id="quant" placeholder="Digite quantidade de multiplicadores:">
-            </p>
-            <p>
-                <input type="button" value="Gerar Tabuada" onclick="tabuada()" id="enter">
-            </p>  
+        <div id="info">
+           <div id="valores">
+            <input type="number" name="numero" id="txtn" placeholder="Digite um número:">
+            <input type="number" name="quant" id="quant" placeholder="Digite quantidade de multiplicadores:">
+           </div>
+                
+           <div id="buttons">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()" id="enter">
+            <input type="button" value="Limpar" id="limpar">
+           </div>
+               
+          
         </div>
         <div id="tab"> <!--resultado-->
             

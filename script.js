@@ -32,3 +32,9 @@ document.addEventListener("keypress", function(e){
         btn.click();
     }
 } )
+
+let limpar = document.getElementById('limpar')
+limpar.addEventListener('click' , limpartab)
+function limpartab(){
+    tab.innerHTML = ''
+}
